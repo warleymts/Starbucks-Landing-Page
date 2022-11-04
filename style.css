@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #333;
+  padding: 12px 40px 12px 40px;
+}
+
+.header h1 {
+  font-family: "sodo sans semibold";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+  padding-left: 20px;
+}
+
+.header .header-left {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+  flex-direction: row;
+  height: auto;
+  position: inherit;
+}
+
+.header .header-center {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  padding: 0;
+}
+
+.header img {
+  display: block;
+
+
+}
+
+.header .header-right {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    flex-direction: row;
+    height: auto;
+    position: inherit;
+
+  }
+
