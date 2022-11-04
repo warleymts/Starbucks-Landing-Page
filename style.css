@@ -6,10 +6,37 @@
 
 .header {
   display: flex;
-  align-items:center;
-  justify-content:space-between;
-  background-color: #333;
-  padding: 20px 60px 20px 60px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  padding: 50px 20px 50px 20px;
+  width: 100%;
+}
+
+.header .header-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 600px;
+  max-width: 100%;
+}
+
+.header .header-center {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  max-width: 100%;
+}
+.header-center > img {
+  height: 55px;
+}
+
+.header .header-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 600px;
+  max-width: 100%;
 }
 
 .header h1 {
@@ -17,21 +44,6 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  color: white;
-  margin: 5px 20px;
+  color: rgb(36, 34, 34);
+  margin: 15px;
 }
-
-.header .header-left {
-  display: flex;
-  flex-direction:row;
-}
-
-.header .header-center {
-  display: flex;
-}
-
-.header .header-right {
-    display: flex;
-    flex-direction:row;
-  }
-
