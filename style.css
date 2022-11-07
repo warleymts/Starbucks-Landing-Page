@@ -41,7 +41,7 @@
   max-width: 100%;
 }
 .header-center > img {
-  height: 55px;
+  height: 60px;
 }
 
 .header .header-right {
@@ -69,19 +69,24 @@
   padding: 15px;
   align-items: center;
   width: 100%;
-  position: absolute;
-  bottom: 0;
 }
 
 .footer .logo {
-  width: 16%;
+  width: 300px;
   max-width: 100%;
+  justify-content: center;
+  display: flex;
 }
 
+.footer .logo img {
+  width: 200px;
+}
+
+
 .menufooter {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 100;
-  width: 30%;
+  width: 100%;
   color: white;
   text-align: center;
   padding: 52px;
@@ -89,4 +94,60 @@
 
 .menufooter p {
   margin-top: 15px;
+  text-align: center;
+}
+
+.coffe {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  padding: 20px;
+}
+
+.coffe h1 {
+  font-family: "sodo sans semibold";
+  color: #1e3932;
+  font-size: 25px;
+  text-align: center;
+  width: 100%;
+}
+
+.coffe-img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 40px;
+}
+
+.coffe-img-center {
+  width: 35%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.coffe-img-left {
+  width: 35%;
+  align-items: flex-end;
+  justify-content: right;
+  display: flex;
+}
+
+.coffe-img-left img {
+  width: 400px;
+  opacity: 1;
+  
+}
+
+.coffe-img-right {
+  width: 35%;
+  align-items: flex-end;
+  justify-content: left;
+  display: flex;
+}
+
+.coffe-img-right img {
+  width: 400px;
+  opacity: 1;
 }
