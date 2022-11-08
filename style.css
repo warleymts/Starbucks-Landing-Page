@@ -82,7 +82,6 @@
   width: 200px;
 }
 
-
 .menufooter {
   font-size: 15px;
   font-weight: 100;
@@ -102,7 +101,7 @@
   flex-direction: column;
   gap: 50px;
   align-items: center;
-  padding: 20px;
+  padding: 50px;
 }
 
 .coffe h1 {
@@ -127,6 +126,20 @@
   display: flex;
 }
 
+.coffe-img-center img {
+  width: 300px;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+
+.coffe-img-left img:hover,
+.coffe-img-center img:hover,
+.coffe-img-right img:hover {
+  transform: scale(1.2);
+  transition: 0.5s all ease;
+}
+
 .coffe-img-left {
   width: 35%;
   align-items: flex-end;
@@ -137,7 +150,9 @@
 .coffe-img-left img {
   width: 400px;
   opacity: 1;
-  
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  cursor: pointer;
 }
 
 .coffe-img-right {
@@ -150,4 +165,40 @@
 .coffe-img-right img {
   width: 400px;
   opacity: 1;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+
+#button {
+  display: flex;
+  padding: 50px 20px;
+  justify-content: center; 
+}
+
+.btnvermais {
+  width: 200px;
+  justify-content: center;
+  display: flex;
+}
+
+.btnvermais button {
+  font-family: "sodo sans semibold";
+  width: 250px;
+  height: 40px;
+  font-size: 18px;
+  color: white;
+  background-color: #1e3932;
+  border-radius: 25px;
+  border-color: transparent;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+
+.btnvermais button:hover {
+  background-color: #BF7E27;
+  transition: 500ms linear;
+  transform: scale(1.1);
+  transition: all 0.5s
 }
