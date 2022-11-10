@@ -173,7 +173,7 @@
 #button {
   display: flex;
   padding: 50px 20px;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .btnvermais {
@@ -197,13 +197,13 @@
 }
 
 .btnvermais button:hover {
-  background-color: #BF7E27;
+  background-color: #bf7e27;
   transition: 500ms linear;
   transform: scale(1.1);
-  transition: all 0.5s
+  transition: all 0.5s;
 }
 
-.descubra {
+.descubratext {
   background-color: #1e3932;
   display: flex;
   justify-content: center;
@@ -220,7 +220,6 @@
   text-align: center;
   color: white;
   font-family: "sodo sans semibold";
-  
 }
 
 .titulo1 {
@@ -236,7 +235,92 @@
   display: flex;
 }
 
+/*  CELULAR M */
 
-.ultima-img img {
+@media (max-width: 414px) {
+  .cupom {
+    width: 414px;
+    font-size: 8px;
+  }
+  .header {
+    width: 414px;    
+    flex-direction: column;
+    align-items: center;
+  }
 
+  .header h1 {
+    font-size: 15px;
+  }
+
+
+  .header .header-right, {
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .coffe {
+    padding: 20px 10px;
+  }
+
+  .coffe h1 {
+    font-size: 18px;
+  }
+
+  .btnvermais button {
+    font-size: 15px;
+  }
+
+  .coffe-img {
+  width: 414px;
+  height: 200px;
+  padding: 10px 10px;
+  }
+
+  .coffe-img-center {
+    width: 150px;
+    height: 200px;
+  }
+
+  .coffe-img-center img {
+    width: 110px;
+    
+  }
+
+  .coffe-img-left {
+    width: 150px;
+  }
+
+  .coffe-img-left img {
+    width: 140px;
+    
+  }
+
+  .coffe-img-right {
+    width: 150px;
+  }
+
+  .coffe-img-right img {
+    width: 140px;
+    
+  }
+
+  .descubra {
+    width: 414px;
+    padding: 5px;
+    
+  }
+  
+  .descubra h1, h2 {
+    font-size: 15px;
+  }
+
+  .ultima-img img{
+    width: 414px;
+  }
+
+  .footer {
+    width: 414px;
+  }
 }
