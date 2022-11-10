@@ -4,7 +4,10 @@
   box-sizing: border-box;
 }
 
-@import url(//db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold);
+@font-face {
+  font-family: "sodo sans semibold";
+  src: url(./font/SoDo-Sans-SemiBold.ttf);
+}
 
 .cupom {
   display: flex;
@@ -243,20 +246,24 @@
   .cupom {
     width: 414px;
     font-size: 8px;
+
   }
   .header {
-    width: 414px;    
+    width: 414px;
     flex-direction: column;
     align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
   }
 
   .header h1 {
     font-size: 15px;
   }
 
-
-  .header .header-right, {
-    display: flex;    
+  .header-right,
+  .header-left {
+    display: flex;
     align-items: center;
     justify-content: center;
     justify-items: center;
@@ -275,9 +282,9 @@
   }
 
   .coffe-img {
-  width: 414px;
-  height: 200px;
-  padding: 10px 10px;
+    width: 414px;
+    height: 200px;
+    padding: 10px 10px;
   }
 
   .coffe-img-center {
@@ -287,38 +294,30 @@
 
   .coffe-img-center img {
     width: 110px;
-    
   }
 
-  .coffe-img-left {
-    width: 150px;
-  }
-
-  .coffe-img-left img {
-    width: 140px;
-    
-  }
-
+  .coffe-img-left,
   .coffe-img-right {
     width: 150px;
   }
 
+  .coffe-img-left img,
   .coffe-img-right img {
     width: 140px;
-    
   }
+
 
   .descubra {
     width: 414px;
     padding: 5px;
-    
   }
-  
-  .descubra h1, h2 {
+
+  .descubra h1,
+  h2 {
     font-size: 15px;
   }
 
-  .ultima-img img{
+  .ultima-img img {
     width: 414px;
   }
 
